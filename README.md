@@ -1,22 +1,22 @@
 # Seattle GDG Polymer Lightning Talk
 
-Polymer lightning talk for Seattle GDG Google I/O '17 Show and Tell
+Polymer lightning talk for Seattle GDG on 05/30/2017: Google I/O Extended 2017 Show and Tell.
 
-# \<meet-up\>
+### Polymer \<meet-up\>
 
 A tag that describes a meet-up group event.
 
-## Install the Polymer-CLI
+### Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
 
-## Viewing Your Element
+### Viewing Your Element
 
 ```
 $ polymer serve
 ```
 
-## Running Tests
+### Running Tests
 
 ```
 $ polymer test
