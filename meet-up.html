@@ -1,0 +1,46 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="meet-up">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <div>Meetup: [[name]]</div>
+    <div>Date: [[date]]</div>
+    <div>Topic: [[topic]]</div>
+    <br/>
+  </template>
+  <script>
+    /**
+     * `meet-up`
+     * A tag that describes a meet-up group event.
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class MeetUp extends Polymer.Element {
+      static get is() { return 'meet-up'; }
+      static get properties() {
+        return {
+          name: {
+            type: String,
+            value: 'Seattle GDG'
+          },
+          date: {
+            type: String,
+            value: '06/19/17'
+          },
+          topic: {
+            type: String,
+            value: 'Tensorflow'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(MeetUp.is, MeetUp);
+  </script>
+</dom-module>
